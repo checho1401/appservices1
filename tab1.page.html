@@ -1,0 +1,77 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+   <ion-buttons slot="start">
+     <ion-button>
+       <ion-icon name="apps"></ion-icon>
+     </ion-button>
+   </ion-buttons>
+   <ion-buttons slot="end">
+     <ion-button class="bordered"  color="white">
+       <ion-icon name="logo-github"></ion-icon>
+     </ion-button>
+   </ion-buttons> 
+  </ion-toolbar>
+
+  <ion-item lines="none">
+
+    <ion-avatar slot="start">
+      <img src="https://www.fit2work.com.au/assets/img/avatars/LoginIconAppl.png">
+    </ion-avatar>
+    <ion-label>
+      <p>Usuario</p>
+      <h3>Politecnicointernacional</h3>
+    </ion-label>
+ 
+  </ion-item>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+   
+   <div class="slides ion-margin-bottom">
+      <ion-slides [options]="slidesOptions">
+        <ion-slide>
+          <ion-card>
+            <ion-card-header>
+              <div class="main">
+               <img src="http://carrerasuniversitarias.com.co/logos/original/logo-politecnico-internacional.png" alt="">
+              </div>
+            </ion-card-header>
+            <img class="files" src="https://i.ytimg.com/vi/9kPBFTvDE04/maxresdefault.jpg">
+            <ion-card-content class="ion-text-left">
+              <ion-card-title class="ion-margin-bottom">POLITECNICO INTERNACIONAL</ion-card-title>
+              <ion-card-subtitle class="ion-text-right">2020</ion-card-subtitle>
+              <ion-progress-bar value="0.5" color="custom"></ion-progress-bar>
+            </ion-card-content>
+          </ion-card>
+
+        </ion-slide>
+      </ion-slides>
+   </div>
+
+   <div class="container">
+
+   <ion-chip color="danger">  
+     <ion-icon name="settings"></ion-icon>  
+     <ion-label>Retroceder</ion-label>
+     <ion-icon name="arrow-back-outline"></ion-icon>   
+   </ion-chip>  
+   <ion-chip color="warning">  
+     <ion-icon name="share" color="primary"></ion-icon>  
+     <ion-label>Mas Opciones</ion-label>  
+     <ion-icon name="ellipsis-horizontal-outline"></ion-icon>  
+   </ion-chip> 
+   <ion-chip color="primary">
+     <ion-icon name="add" color="danger"></ion-icon>
+     <ion-label>cerrar</ion-label>   
+     <ion-icon name="close"></ion-icon>  
+   </ion-chip>  
+   <ion-chip color="success">  
+    
+     <ion-label>lineas de atencion</ion-label>  
+     <ion-icon name="call-outline"></ion-icon>  
+   </ion-chip>  
+     
+
+   </div>
+  
+</ion-content>
